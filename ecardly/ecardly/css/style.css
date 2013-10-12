@@ -47,6 +47,20 @@ body{
   margin: 10px auto;
 }
 
+main{
+  float:left;
+  width: 660px;
+}
+
+
+aside{
+  width: 290px;
+  background-color:white;
+  float:left;
+  margin: 10px 0px 0px 10px;
+  padding: 5px;
+}
+
 h1{
   text-indent: 100%;
   white-space: nowrap;
@@ -59,6 +73,7 @@ h1{
 
 article{
   background-color: white;
+  width: 660px;
   padding:10px;
   margin: 10px 0px;
 }
@@ -81,6 +96,7 @@ img{
   margin-right: 10px;
   height: 200px;
 }
+
 
 
 

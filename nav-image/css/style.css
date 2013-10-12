@@ -14,8 +14,23 @@ header {
 	height: 80px;	
 }
 
+
 /*----------------------------------------------------------------------------- 
 NAVIGATION 
 -----------------------------------------------------------------------------*/
 
+
+nav ul li a{
+	float: left;
+	margin: 0 0;
+	padding: 30px 30px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+nav ul li a:hover, a.active{
+	background-image: url(../images/bg_nav_rollover.png);
+}
 

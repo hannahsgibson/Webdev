@@ -3,14 +3,63 @@
 /*****************************/		
 /*        GENERAL             *
 /*****************************/	
+body{
+	background-image: url(../images/bg-gradient.jpg);
+	font: 12px;
+	width: 960px;
+	margin: 10px auto;
+	line-height: 1.5;
+}
 
 
 
+
+.clearfix:after{
+	content:".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+#bubble{
+	margin: 0px 0px;
+	background-color: white;
+	padding: 30px;
+}
 
 
 /*****************************/		
 /*  CSS SPRITE NAVIGATION     *
 /*****************************/	
 	
+nav ul li a{
+	float: left;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+	height: 70px;
+	width: 120px;
+	background-image: url(../images/menu-sprite.jpg);
+}
 
-	
+nav ul li a:hover {
+	background-position-y: -70px;
+}
+
+nav ul li a:active{
+background-position-y: -140px;
+}
+
+nav ul li.About a {
+	background-position-x: -120px;
+	width: 130px;
+}
+
+nav ul li.Contact a {
+	background-position-x: -250px;
+	width: 160px;
+}
+

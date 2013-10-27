@@ -10,8 +10,6 @@ body,html {
 }
 
 header {
-	background: #000;
-	height: 80px;	
 }
 
 
@@ -20,7 +18,8 @@ NAVIGATION
 -----------------------------------------------------------------------------*/
 
 nav{
-	
+	background: #000;
+	height: 80px;	
 }
 
 nav ul li a{

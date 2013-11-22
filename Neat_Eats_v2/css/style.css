@@ -75,6 +75,7 @@ p{
 nav{
 	background-color: #ccc;
 	height: 40px;
+	margin-bottom: 2%;
 }
 
 nav ul{
@@ -108,7 +109,7 @@ nav ul li a:hover, nav ul li a:active{
 	text-align: left;
 	width: 100%;
 	background: #ccc;
-	margin-top: 2%;/*
+/*
 	box-shadow: 5px 5px 40px #888;*/
 }
 

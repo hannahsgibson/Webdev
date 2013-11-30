@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$(".area:nth-child(n)").click(function(){
-		$(".cardarea:nth-child(n)").slideToggle('slow', 0);
+	$(".area1header").click(function(){
+		$(".cardarea1").slideToggle(1500, 0);
 	});
 });

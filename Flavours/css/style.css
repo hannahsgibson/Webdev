@@ -158,7 +158,7 @@ nav ul li a:hover, /*nav ul li a.active*/{
 	margin: 0.25%;
 /*	border: 1px solid white;
 */	padding: 1%;
-	height: 250px;
+	height: 200px;
 	color: white;
 	font-size: 1em;
 	background: #ccc;
@@ -363,7 +363,7 @@ footer{
 		width: 47.5%;
 	}
 
-	.subcard, .subcardstatic, .subcardstaticselected {
+	.subcard, .subcardstatic, .subcardstaticselected, .subcardindex {
 		width: 47.5%;
 		height: 40px;
 	}

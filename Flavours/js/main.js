@@ -92,8 +92,8 @@ var FLAVOUR8 = {
 	}
 }
 
-
-
+// check this out:
+//stackoverflow.com/questions/5873810/how-can-i-get-last-characters-of-a-string-using-javascript
 
 $(document).ready(function() {
 	$('.subcard').hide();
